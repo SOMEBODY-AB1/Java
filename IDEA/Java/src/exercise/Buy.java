@@ -33,7 +33,7 @@ public class Buy {
             System.out.print("请输入您的消费金额(精确到毛)：");
             double sMoney = sc.nextDouble();
 
-            if (sMoney == 30208) {
+            if (sMoney == 20030208) {
                 System.out.println("进入开发者模式");
                 System.out.println("是否需要停止运行？(true/false)");
                 boolean c = sc.nextBoolean();
@@ -55,7 +55,7 @@ public class Buy {
                 return;
             }
             else if (sMoney >= 50) {
-                System.out.println("您的消费金额已经到达要求，是否参加换购？(1/0)：");
+                System.out.print("您的消费金额已经到达要求，是否参加换购？(1/0)：");
             }
 
             int t = sc.nextInt();
